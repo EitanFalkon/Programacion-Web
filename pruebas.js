@@ -1,4 +1,8 @@
-let numerostr="10"
-parseInt(numerostr)
-numerostr=numerostr-1
-console.log(numerostr)
+function concatenastr (array){
+    let total=""
+    for (let i=0 ; i< array.length ; i++)
+        total+= array[i]+" "
+    return total
+}
+prueba=["Hola", "Como", "estas"]
+console.log(concatenastr(prueba))
