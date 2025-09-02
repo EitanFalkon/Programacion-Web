@@ -1,0 +1,13 @@
+{
+  "name": "mi-proyecto-web",
+  "version": "1.0.0",
+  "description": "Proyecto web con Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["html", "node", "web"],
+  "author": "Eitan",
+  "license": "ISC"
+}
